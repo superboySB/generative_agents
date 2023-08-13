@@ -927,7 +927,7 @@ def _wait_react(persona, reaction_mode):
     act_address, act_event, chatting_with, chat, chatting_with_buffer, chatting_end_time,
     act_pronunciatio, act_obj_description, act_obj_pronunciatio, act_obj_event)
 
-
+# TODO: 核心重点
 def plan(persona, maze, personas, new_day, retrieved): 
   """
   Main cognitive function of the chain. It takes the retrieved memory and 

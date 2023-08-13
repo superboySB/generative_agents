@@ -276,7 +276,7 @@ class ReverieServer:
       time.sleep(self.server_sleep * 10)
 
 
-  def start_server(self, int_counter): 
+  def start_server(self, int_counter): # TODO: 我觉得是核心函数
     """
     The main backend server of Reverie. 
     This function retrieves the environment file from the frontend to 
@@ -610,55 +610,3 @@ if __name__ == '__main__':
 
   rs = ReverieServer(origin, target)
   rs.open_server()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
